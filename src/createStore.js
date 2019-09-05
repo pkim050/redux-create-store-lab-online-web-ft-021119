@@ -1,3 +1,6 @@
+import candyReducer from './reducers/candyReducer'
+import countReducer from './reducers/countReducer'
+
 export default function createStore(reducer) {
   // add your code here
   let state;
@@ -20,3 +23,6 @@ export default function createStore(reducer) {
 function render() {
   const container = document.getElementById('container');
 }
+
+candyReducer(state = {[]}, action)
+countReducer(state = {count: 0}, action)
