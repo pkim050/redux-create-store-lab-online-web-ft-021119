@@ -24,5 +24,5 @@ function render() {
   const container = document.getElementById('container');
 }
 
-candyReducer(state = {[]}, action)
-countReducer(state = {count: 0}, action)
+candyReducer(state, action)
+countReducer(state, action)
